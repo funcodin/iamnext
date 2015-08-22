@@ -1,0 +1,8 @@
+/target/
+*.war
+*.class
+*.DS_Store
+/dist
+/.classpath
+/.settings
+/.project
