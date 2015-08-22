@@ -1,3 +1,5 @@
 .classpath
 .project
 .settings
+iamnext-core/target/
+iamnext-types/target/
