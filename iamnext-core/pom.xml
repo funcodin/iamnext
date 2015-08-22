@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.multi.enterprise</groupId>
-	<artifactId>iamnext</artifactId>
+	<artifactId>iamnext-core</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>iamnext-core</name>

@@ -10,9 +10,9 @@
 
         <rollingPolicy name="file" class="org.apache.log4j.rolling.FixedWindowRollingPolicy">
 
-            <param name="FileNamePattern" value="/mmapp/applications/iamnext/logs/core.log.%i.gz" />
+            <param name="FileNamePattern" value="/var/tmp/iamnext/logs/core.log.%i.gz" />
 
-            <param name="ActiveFileName" value="/mmapp/applications/iamnext//logs/core.log" />
+            <param name="ActiveFileName" value="/var/tmp/iamnext//logs/core.log" />
 
             <param name="MinIndex" value="1" />
 
