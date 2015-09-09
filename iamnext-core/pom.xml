@@ -169,7 +169,7 @@
     <artifactId>iamnext-types</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <scope>system</scope>
-    <systemPath>/Users/Rohit/.m2/repository/com/multi/enterprise/iamnext-types/0.0.1-SNAPSHOT/iamnext-types-0.0.1-SNAPSHOT.war</systemPath>
+    <systemPath>/Users/Rohit/.m2/repository/com/multi/enterprise/iamnext-types/0.0.1-SNAPSHOT/iamnext-types-0.0.1-SNAPSHOT.jar</systemPath>
 </dependency>
 
 

@@ -4,7 +4,7 @@
 	<groupId>com.multi.enterprise</groupId>
 	<artifactId>iamnext-types</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>iamnext-types</name>
 	<description>I am Next Types</description>
 
