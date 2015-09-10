@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.multi.enterprise</groupId>
+  <artifactId>iamnext-types</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20150910044613</lastUpdated>
+  </versioning>
+</metadata>
