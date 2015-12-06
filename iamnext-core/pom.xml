@@ -4,16 +4,17 @@
 
 	<groupId>com.multi.enterprise</groupId>
 	<artifactId>iamnext-core</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>${project.version}</version>
 	<packaging>war</packaging>
 	<name>iamnext-core</name>
+	
 	<description>I am next - Core</description>
-
 	<properties>
 		<project.timestamp>${maven.build.timestamp}</project.timestamp>
 		<org.springframework.version>4.0.6.RELEASE</org.springframework.version>
+  		<github.global.server>github</github.global.server>
+  		<project.version>0.0.1-SNAPSHOT</project.version>
 	</properties>
-
 	<dependencies>
 
 
@@ -163,10 +164,6 @@
 	<artifactId>jackson-databind</artifactId>
 	<version>2.4.2</version>
 </dependency>
-
-
-
-
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -185,8 +182,23 @@
 				<source>1.8</source>
 				<target>1.8</target>
 			</configuration>
-		
 		</plugin>
+		<plugin>
+      		<groupId>com.github.github</groupId>
+      		<artifactId>site-maven-plugin</artifactId>
+      		<version>0.11</version>
+      		<configuration>
+        		<message>Creating maven repo for ${project.version}</message>
+      		</configuration>
+      		<executions>
+        		<execution>
+          		<goals>
+            		<goal>site</goal>
+          		</goals>
+          		<phase>site</phase>
+        		</execution>
+      		</executions>
+    	</plugin>
 	</plugins>	
 		<resources>
 			<resource>
